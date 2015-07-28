@@ -1,0 +1,13 @@
+#NODE Variables
+
+*.env
+.env
+
+# Amazon S3 Bucket
+
+aws.json
+
+# Sass
+
+**/.sass-cache
+**/.sass-cache/*

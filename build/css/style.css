@@ -1,0 +1,272 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,200italic,300italic,400italic,600italic,700italic);
+
+body {
+    margin: 0 auto;
+    background-image: url('../content/bg.jpg');
+    background-size: cover;
+    background-position: 0px -175px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+
+.logo img {
+    width: 200px;
+    margin-left: 3em;
+}
+
+.logo {
+    float: left;
+    width: 33%;
+}
+
+section.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+div.slogan {
+    font-size: 42px;
+    color: #fff;
+    font-weight: 800 !important;
+    position: absolute;
+    top: 215px;
+    padding: 13px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+}
+
+div.slogan a {
+    font-weight: 700!important;
+    text-align: center;
+    font-weight: 700;
+    background-color: #fff;
+    padding: 15px 20px;
+    font-size: 13px;
+    white-space: nowrap;
+    color: #40434c!important;
+    border-radius: 5px!important;
+    border-width: 0;
+    background-position: initial initial;
+    background-repeat: initial initial;
+    text-decoration: none;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    text-shadow: none;
+}
+
+div.slogan a:hover {
+    background-color: #000;
+    color: #fff!important;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+}
+
+nav {
+    width: 60%;
+    float: left;
+}
+
+nav ul {
+    margin-top: 3em;
+    margin-left: 2em;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 2em;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+ul li a {
+    color: #FFF;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+    text-transform: uppercase;
+}
+
+ul li a:hover {
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    border-bottom: 2px solid #fff;
+    color: #FFF;
+    padding-bottom: 0.25em;
+    text-decoration: none;
+}
+
+ul li a.current {
+    text-shadow: none;
+    border-bottom: 2px solid #fff;
+}
+
+ul li a.effectu-links:hover {
+    color: #ddd;
+}
+
+.effecta {
+    background-color: #FFF;
+    color: #000 !important;
+    opacity: .7;
+}
+
+.effecto {
+    background-color: transparent;
+}
+
+.effectu {
+    font-size: 12px;
+    border-bottom: 2px solid #fab231;
+    background-color: #FFF;
+    max-height: 80px !important;
+	-webkit-transition: max-height 0.5s ease-in-out;
+    -moz-transition: max-height 0.5s ease-in-out;
+    -o-transition: max-height 0.5s ease-in-out;
+    -ms-transition: max-height 0.5s ease-in-out;
+    transition: max-height 0.5s ease-in-out;
+    opacity: .8;
+}
+
+.effectu-top {
+    margin-top: 1em !important;
+	-webkit-transition: margin-top 0.5s ease-in-out;
+    -moz-transition: margin-top 0.5s ease-in-out;
+    -o-transition: margin-top 0.5s ease-in-out;
+    -ms-transition: margin-top 0.5s ease-in-out;
+    transition: margin-top 0.5s ease-in-out;
+}
+
+.effectu-logo {
+    width: 98px !important;
+    -webkit-transition: width 0.5s ease-in-out;
+    -moz-transition: width 0.5s ease-in-out;
+    -o-transition: width 0.5s ease-in-out;
+    -ms-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+}
+
+.effectu-links {
+    color: #000;
+    text-shadow: none;
+    -webkit-transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
+    -ms-transition: color 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
+}
+
+.effectu-links.current {
+    color: #ccc;
+}
+
+section.content {
+    min-height: 300px;
+    background-color: #FFF;
+    margin-top: 523px;
+    padding: 1em 5%;
+}
+
+.content .row img {
+    width: 200px;
+}
+
+.main {
+    margin-bottom: 4em;
+}
+
+.main h1 {
+    font-size: 40px;
+    margin-top: 1em;
+}
+
+.main h4 {
+    font-weight: 300;
+    margin-bottom: 2em;
+}
+
+.main h1, .main h4 {
+    text-align: center;
+}
+
+section.adhesion {
+    padding: 2em;
+}
+
+.adhesion p.linko {
+    text-align: center;
+    margin: 4em auto;
+}
+
+.adhesion p {
+    color: #FFF;
+}
+
+.adhesion a {
+    text-align: center;
+    font-weight: 500;
+    background-color: #fab231;
+    padding: 15px 20px;
+    font-size: 18px;
+    white-space: nowrap;
+    color: #FFF!important;
+    letter-spacing: 1px;
+    border-radius: 5px!important;
+    border-width: 0;
+    background-position: initial initial;
+    background-repeat: initial initial;
+    text-decoration: none;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    text-shadow: none;
+}
+
+.adhesion a:hover {
+    background-color: #fdc83c;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.adhesion h4 {
+    text-align: center;
+    font-weight: 200 !important;
+    font-size: 3.2em;
+    color: #fab231;
+    margin-bottom: 30px;
+}
+
+p.sub {
+    text-align: center;
+    color: #000;
+    font-weight: 200;
+    margin-bottom: 2.5%;
+}
+
+footer {
+    height: 50px;
+    background-color: #000;
+}
+
+footer p {
+    color: #FFF;
+    text-align: center;
+    padding-top: 1.5em;
+    font-size: 10px;
+}

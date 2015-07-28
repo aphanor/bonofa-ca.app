@@ -1,0 +1,23 @@
+{
+  "name": "Bonofa-ca",
+  "version": "0.0.1",
+  "description": "Bonofa pour Giovanni",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aphanor/bonofa-ca.app"
+  },
+  "author": "Alexis Phanor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aphanor/bonofa-ca.app/issues"
+  },
+  "homepage": "https://github.com/aphanor/bonofa-ca.app",
+  "dependencies": {
+    "express": "^4.13.1"
+  }
+}
