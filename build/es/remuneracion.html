@@ -103,11 +103,37 @@
               }
               
             });
+            
+            var path = window.location.pathname;
+            var page = path.split("/").pop();
+            
+            function pageToEn() {
+                window.location.href = '/en/remuneration.html';
+            }
+            
+            function pageToFR() {
+                window.location.href= '/remuneration.html';
+            }
+            
+            $('li.en').click(function(){
+                pageToEn();
+            })
+            
+            $('li.fr').click(function(){
+                pageToFR();
+            })
         
         });
     </script>
     </head>
     <body>
+        <div class="languages">
+            <ul>
+                <li>| </li>
+                <li class="en">EN</li>
+                <li class="fr">FR</li>
+            </ul>
+        </div>
         <section class="nav">
             <div class="logo">
                 <a href="/"><img src="../content/bono.png" /></a>

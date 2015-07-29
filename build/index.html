@@ -20,7 +20,7 @@
     
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-    
+    <link href='http://fonts.googleapis.com/css?family=Dosis:400,300' rel='stylesheet' type='text/css'>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
@@ -61,12 +61,36 @@
             $('.con').click(function() {
                 $(".main").moveTo(4);
             })
+            
+            var path = window.location.pathname;
+            var page = path.split("/").pop();
+            
+            function pageToEn() {
+                window.location.href = '/en/'+page;
+            }
+            
+            function pageToEs() {
+                window.location.href= '/es/'+page;
+            }
+            
+            $('li.en').click(function(){
+                pageToEn();
+            })
+            
+            $('li.es').click(function(){
+                pageToEs();
+            })
         })
     </script>
-    <style>
-    </style>
     </head>
     <body>
+        <div class="languages">
+            <ul>
+                <li>| </li>
+                <li class="en">EN</li>
+                <li class="es">ES</li>
+            </ul>
+        </div>
         <div class="main onepage-wrapper">
             <section class="navi">
                 <div class="logo">

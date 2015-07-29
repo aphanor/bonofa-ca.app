@@ -63,12 +63,38 @@
             $('.con').click(function() {
                 $(".main").moveTo(4);
             })
+            
+            var path = window.location.pathname;
+            var page = path.split("/").pop();
+            
+            function pageToFr() {
+                window.location.href = '/'+page;
+            }
+            
+            function pageToEs() {
+                window.location.href= '/es/'+page;
+            }
+            
+            $('li.fr').click(function(){
+                pageToFr();
+            })
+            
+            $('li.es').click(function(){
+                pageToEs();
+            })
         })
     </script>
     <style>
     </style>
     </head>
     <body>
+        <div class="languages">
+            <ul>
+                <li>| </li>
+                <li class="fr">FR</li>
+                <li class="es">ES</li>
+            </ul>
+        </div>
         <div class="main onepage-wrapper">
             <section class="navi">
                 <div class="logo">

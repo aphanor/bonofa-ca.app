@@ -270,3 +270,27 @@ footer p {
     padding-top: 1.5em;
     font-size: 10px;
 }
+
+div.languages {
+    position: fixed;
+    top: 20px;
+    right: 0;
+    padding: 1em;
+    z-index: 9999;
+}
+
+div.languages ul li {
+    display: inline-block;
+    cursor: pointer;
+    font-family: "'Dosis'","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #FFF;
+    padding: 0.5em;
+    text-transform: uppercase;
+}
+
+li.en {
+    margin-right: 0.5em;
+}

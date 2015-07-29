@@ -31,7 +31,7 @@
         <script type="text/javascript">
             $(document).ready(function() {
     
-            var elements = $('div.slogan');
+                var elements = $('div.slogan');
             
                 $(document).scroll(function(e) {
                   var scrollPercent = ($(window).scrollTop() / $('.slogan').outerHeight()) * 100;
@@ -63,11 +63,37 @@
                   }
                   
                 });
+                
+                var path = window.location.pathname;
+                var page = path.split("/").pop();
+                
+                function pageToFr() {
+                    window.location.href = '/'+page;
+                }
+                
+                function pageToEs() {
+                    window.location.href= '/es/concepto.html';
+                }
+                
+                $('li.fr').click(function(){
+                    pageToFr();
+                })
+                
+                $('li.es').click(function(){
+                    pageToEs();
+                })
             
             });
         </script>
     </head>
     <body>
+        <div class="languages">
+            <ul>
+                <li>| </li>
+                <li class="fr">FR</li>
+                <li class="es">ES</li>
+            </ul>
+        </div>
         <section class="nav">
             <div class="logo">
                 <a href="index.html"><img src="../content/bono.png" /></a>
