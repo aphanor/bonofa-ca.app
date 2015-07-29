@@ -5,6 +5,7 @@
 
 # Amazon S3 Bucket
 
+*.pem
 aws.json
 
 # Sass
