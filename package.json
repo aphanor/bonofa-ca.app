@@ -19,5 +19,8 @@
   "homepage": "https://github.com/aphanor/bonofa-ca.app",
   "dependencies": {
     "express": "^4.13.1"
+  },
+  "devDependencies": {
+    "express": "^4.13.1"
   }
 }

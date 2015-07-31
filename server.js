@@ -11,7 +11,13 @@ var email = new sendgrid.Email();
 
 app.use(bodyParser.json());
 app.set('port', 3000);
-app.use(express.static(__dirname + '/build')); 
+app.use(express.static(__dirname + '/build'));
+
+// Handle 404
+app.use(function(req, res) {
+    res.status(400);
+    res.redirect('/');
+});
 
 app.post('/email', function(req, res) {
     email.addTo(process.env.EMAIL);
